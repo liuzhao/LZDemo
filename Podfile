@@ -5,7 +5,7 @@ target 'LZDemo' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
 
-   pod 'LZLogining', :path => 'Lib/LZLogining'
-   pod 'LZNetworking', :path => 'Lib/LZNetworking'
+   pod 'TRULogining', :path => 'Lib/TRULogining'
+   pod 'TRUNetworking', :path => 'Lib/TRUNetworking'
 
 end

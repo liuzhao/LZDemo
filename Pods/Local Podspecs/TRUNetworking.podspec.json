@@ -1,9 +1,9 @@
 {
-  "name": "LZLogining",
+  "name": "TRUNetworking",
   "version": "0.1.0",
-  "summary": "LZLogining for demo",
+  "summary": "A short description of TRUNetworking.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/liuzhao/LZLogining",
+  "homepage": "https://github.com/truend86@qq.com/TRUNetworking",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,15 +12,15 @@
     "truend86@qq.com": "truend86@qq.com"
   },
   "source": {
-    "git": "https://github.com/liuzhao/LZLogining.git",
+    "git": "https://github.com/truend86@qq.com/TRUNetworking.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "LZLogining/Classes/**/*",
+  "source_files": "TRUNetworking/Classes/**/*",
   "dependencies": {
-    "LZNetworking": [
+    "AFNetworking": [
 
     ]
   }

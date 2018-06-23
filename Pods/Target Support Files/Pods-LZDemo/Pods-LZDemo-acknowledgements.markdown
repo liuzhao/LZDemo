@@ -24,7 +24,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
-## LZLogining
+## TRULogining
 
 Copyright (c) 2018 truend86@qq.com <truend86@qq.com>
 
@@ -47,7 +47,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
-## LZNetworking
+## TRUNetworking
 
 Copyright (c) 2018 truend86@qq.com <truend86@qq.com>
 

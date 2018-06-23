@@ -14,30 +14,30 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - LZLogining (0.1.0):
-    - LZNetworking
-  - LZNetworking (0.1.0):
+  - TRULogining (0.1.0):
+    - TRUNetworking
+  - TRUNetworking (0.1.0):
     - AFNetworking
 
 DEPENDENCIES:
-  - LZLogining (from `Lib/LZLogining`)
-  - LZNetworking (from `Lib/LZNetworking`)
+  - TRULogining (from `Lib/TRULogining`)
+  - TRUNetworking (from `Lib/TRUNetworking`)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
 
 EXTERNAL SOURCES:
-  LZLogining:
-    :path: Lib/LZLogining
-  LZNetworking:
-    :path: Lib/LZNetworking
+  TRULogining:
+    :path: Lib/TRULogining
+  TRUNetworking:
+    :path: Lib/TRUNetworking
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  LZLogining: 8ecbc2aae22ad01ca33d729d78eb6b02e7122d69
-  LZNetworking: 2ada16d40b42cca0eb43283fd4b7bf6fd8a642b5
+  TRULogining: 0d781f50ee334628f2f2e6619a3d4459ea6c6daf
+  TRUNetworking: 4a4f3d5d96867174a5ddc8eb5840cd1c7da89342
 
-PODFILE CHECKSUM: 8a8a048f65339e621a5223e7072ddae83b47f6af
+PODFILE CHECKSUM: dd84a07ce22ef33640f118e31a281ea88637bfa5
 
 COCOAPODS: 1.5.0

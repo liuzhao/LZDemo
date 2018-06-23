@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "368485B334AE9D8F28EAA060CB039048"
-               BlueprintName = "LZNetworking"
+               BlueprintIdentifier = "8AB1184C7C93D9B8F36C715D41AAD81F"
+               BlueprintName = "TRUNetworking"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libLZNetworking.a">
+               BuildableName = "libTRUNetworking.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

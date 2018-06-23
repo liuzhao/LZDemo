@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F6FAE68458C6CED4F436779973B1E4FF"
-               BlueprintName = "LZLogining"
+               BlueprintIdentifier = "D9259411A7DA2B70E9CEC5284AE17211"
+               BlueprintName = "TRULogining"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "libLZLogining.a">
+               BuildableName = "libTRULogining.a">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

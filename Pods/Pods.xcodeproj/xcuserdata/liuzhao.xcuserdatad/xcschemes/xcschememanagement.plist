@@ -11,21 +11,21 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>LZLogining.xcscheme</key>
+		<key>Pods-LZDemo.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
-		<key>LZNetworking.xcscheme</key>
+		<key>TRULogining.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>2</integer>
 		</dict>
-		<key>Pods-LZDemo.xcscheme</key>
+		<key>TRUNetworking.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
