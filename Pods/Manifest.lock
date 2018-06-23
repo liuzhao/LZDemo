@@ -16,28 +16,27 @@ PODS:
     - AFNetworking/NSURLSession
   - TRULogining (0.1.0):
     - TRUNetworking
-  - TRUNetworking (0.1.0):
+  - TRUNetworking (0.2.0):
     - AFNetworking
 
 DEPENDENCIES:
   - TRULogining (from `Lib/TRULogining`)
-  - TRUNetworking (from `Lib/TRUNetworking`)
+  - TRUNetworking (~> 0.2.0)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
+    - TRUNetworking
 
 EXTERNAL SOURCES:
   TRULogining:
     :path: Lib/TRULogining
-  TRUNetworking:
-    :path: Lib/TRUNetworking
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   TRULogining: 0d781f50ee334628f2f2e6619a3d4459ea6c6daf
-  TRUNetworking: 4a4f3d5d96867174a5ddc8eb5840cd1c7da89342
+  TRUNetworking: 8abf905c31b421c2f81be6b833a3840e6d1ea20f
 
-PODFILE CHECKSUM: dd84a07ce22ef33640f118e31a281ea88637bfa5
+PODFILE CHECKSUM: ee525a4c38e2d6ce0040bb1626a8bd8865f81980
 
 COCOAPODS: 1.5.0

@@ -1,1 +1,1 @@
-../../../../Lib/TRUNetworking/TRUNetworking/Classes/TRUNetworking.h
+../../../TRUNetworking/TRUNetworking/Classes/TRUNetworking.h
