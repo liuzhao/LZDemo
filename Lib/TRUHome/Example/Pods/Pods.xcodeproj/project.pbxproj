@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		348FC1F4E34C148162D30D61A92550FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4EEE13B83FD2663EAFBA7B6D998D31FA /* Pods-TRUHome_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 234F844125CA7994863FCB45DBDEB448 /* Pods-TRUHome_Example-dummy.m */; };
+		7A55EC67F9599F20685BC182065C9FB9 /* Pods-TRUHome_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E33B3B2CE4080DE607A8ED7B69CAD42 /* Pods-TRUHome_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F093FBF7AB802C1ED502F4CD0621911 /* TRUHome-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A3A1EFF05E071E18D6D6384BFFC1FB1 /* TRUHome-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99EFE5C57938974D41EE12B9CAC2E074 /* TRUHome-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB5BF695306078394FDB70A0E575CEA /* TRUHome-dummy.m */; };
+		9DA579D1076BE36427BD0B06F01A0FAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B50772F2DC54D012EFEEF7AD5994D7B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B9C3ED6970058573261892B992D128EE /* Pods-TRUHome_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D39AE50B2D8A7CAE8232C5FE0F1EBC4 /* Pods-TRUHome_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4E0B2D3E85C74DDDC7902640CDFACF6 /* TRUHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14160551C6EB1C3CF672DE825F9B8230 /* TRUHomeViewController.m */; };
+		D3DF89EB59653D6BDFA8257B52188F4A /* Pods-TRUHome_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C96BA4ED0C49E9AB97BFA6C7AF8CCB /* Pods-TRUHome_Tests-dummy.m */; };
+		FE1265D6C72C35D236F67ADBC816DD2E /* TRUHomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DA185CE42B734DBFBCF842E32E18534D /* TRUHomeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7FD1489DA9E9CD31B457DE99C52D8B1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 144E666A8538FEE06087D6AC9E85BF3D;
+			remoteInfo = "Pods-TRUHome_Example";
+		};
+		EF33AD16CCD2157F2DF157DDA0B76AA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFB9A2B71FBE6458A02ED7A305217FAE;
+			remoteInfo = TRUHome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0EE4B578A0D192CDC211C797E6023BA2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FF123EE885CA2D935E4CE98ED82AAB0 /* Pods-TRUHome_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TRUHome_Tests.modulemap"; sourceTree = "<group>"; };
+		14160551C6EB1C3CF672DE825F9B8230 /* TRUHomeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TRUHomeViewController.m; path = TRUHome/Classes/TRUHomeViewController.m; sourceTree = "<group>"; };
+		1A3A1EFF05E071E18D6D6384BFFC1FB1 /* TRUHome-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRUHome-umbrella.h"; sourceTree = "<group>"; };
+		1C28E204B69A07BB0A43E725D588F952 /* TRUHome-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRUHome-prefix.pch"; sourceTree = "<group>"; };
+		1C6F6A7FD30396DEC8D143B28C89B9C2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20F9814743E8919CD7F6DBFBDDAA14F2 /* TRUHome.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TRUHome.modulemap; sourceTree = "<group>"; };
+		21E6EC8E0FD67D13A2C01F2C152A5487 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		234F844125CA7994863FCB45DBDEB448 /* Pods-TRUHome_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TRUHome_Example-dummy.m"; sourceTree = "<group>"; };
+		23BE90BBA514E176B30E9121DD4D4947 /* Pods-TRUHome_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TRUHome_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2F69C94D838164AC77D616132AE30B72 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34C96BA4ED0C49E9AB97BFA6C7AF8CCB /* Pods-TRUHome_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TRUHome_Tests-dummy.m"; sourceTree = "<group>"; };
+		4DB5BF695306078394FDB70A0E575CEA /* TRUHome-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TRUHome-dummy.m"; sourceTree = "<group>"; };
+		52BDF15BF98D5F2CF9E150F1E33E0260 /* TRUHome.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TRUHome.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		540E66422505604852956FA250A033B2 /* Pods-TRUHome_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TRUHome_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5E33B3B2CE4080DE607A8ED7B69CAD42 /* Pods-TRUHome_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TRUHome_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6D39AE50B2D8A7CAE8232C5FE0F1EBC4 /* Pods-TRUHome_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TRUHome_Example-umbrella.h"; sourceTree = "<group>"; };
+		7E564720179492CBF58C4AF9E60EA4AD /* Pods-TRUHome_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TRUHome_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8934801097AF834EF206EE1B48AE8C15 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		903EC64EFB7F3C85FD34C85447125CEA /* Pods-TRUHome_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TRUHome_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E07DA7A73C18431D8417CF402641875 /* Pods-TRUHome_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TRUHome_Tests-resources.sh"; sourceTree = "<group>"; };
+		A1E033BDD38D2577126067A0DA8F826A /* TRUHome.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TRUHome.xcconfig; sourceTree = "<group>"; };
+		A372C664BE4E80956C4CDCFAA7F1D7DA /* TRUHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TRUHome.framework; path = TRUHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4A1A7AFA3DD00C208A8FD6476EC0B1C /* Pods-TRUHome_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TRUHome_Example-resources.sh"; sourceTree = "<group>"; };
+		B01EBFD6A6931A37D5BCF3A059019848 /* Pods-TRUHome_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TRUHome_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BE2A00BBC251D225970D7D3BF17B05DE /* Pods-TRUHome_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TRUHome_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C120F7264B6282449CEAAC50EC908709 /* Pods_TRUHome_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TRUHome_Tests.framework; path = "Pods-TRUHome_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D96E057E0914F23FAE7B1FD2DFD4C4C6 /* Pods_TRUHome_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TRUHome_Example.framework; path = "Pods-TRUHome_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA185CE42B734DBFBCF842E32E18534D /* TRUHomeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TRUHomeViewController.h; path = TRUHome/Classes/TRUHomeViewController.h; sourceTree = "<group>"; };
+		DC104EF276948149FAB612DB253577B8 /* Pods-TRUHome_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TRUHome_Example.modulemap"; sourceTree = "<group>"; };
+		E0C2EC0AF76DA38DD6553246ADE872B1 /* Pods-TRUHome_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TRUHome_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E24A83E1B513CF846C6A99556D2AECCC /* Pods-TRUHome_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TRUHome_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F0B91D6D81268888AC142BF5EC9187EF /* Pods-TRUHome_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TRUHome_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FD08803F6C3229109F19C4A0A3E21081 /* Pods-TRUHome_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TRUHome_Tests-frameworks.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F8F19520FBC6124941FF2ADAF53D452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B50772F2DC54D012EFEEF7AD5994D7B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A155398C6A0B8EDCB43D2E64F77963 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DA579D1076BE36427BD0B06F01A0FAF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4AF8D4E71589AD8986E4F70890B00A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				348FC1F4E34C148162D30D61A92550FA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11474C09A73D25F1B85FC79D45909433 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1C6F6A7FD30396DEC8D143B28C89B9C2 /* Info.plist */,
+				20F9814743E8919CD7F6DBFBDDAA14F2 /* TRUHome.modulemap */,
+				A1E033BDD38D2577126067A0DA8F826A /* TRUHome.xcconfig */,
+				4DB5BF695306078394FDB70A0E575CEA /* TRUHome-dummy.m */,
+				1C28E204B69A07BB0A43E725D588F952 /* TRUHome-prefix.pch */,
+				1A3A1EFF05E071E18D6D6384BFFC1FB1 /* TRUHome-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TRUHome";
+			sourceTree = "<group>";
+		};
+		5BEED61122DCF58A7BAED57B5D69B4E7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8934801097AF834EF206EE1B48AE8C15 /* LICENSE */,
+				21E6EC8E0FD67D13A2C01F2C152A5487 /* README.md */,
+				52BDF15BF98D5F2CF9E150F1E33E0260 /* TRUHome.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		5C55D0B7E2AB6E8B21503598736A05C4 /* Pods-TRUHome_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0EE4B578A0D192CDC211C797E6023BA2 /* Info.plist */,
+				DC104EF276948149FAB612DB253577B8 /* Pods-TRUHome_Example.modulemap */,
+				BE2A00BBC251D225970D7D3BF17B05DE /* Pods-TRUHome_Example-acknowledgements.markdown */,
+				E24A83E1B513CF846C6A99556D2AECCC /* Pods-TRUHome_Example-acknowledgements.plist */,
+				234F844125CA7994863FCB45DBDEB448 /* Pods-TRUHome_Example-dummy.m */,
+				F0B91D6D81268888AC142BF5EC9187EF /* Pods-TRUHome_Example-frameworks.sh */,
+				A4A1A7AFA3DD00C208A8FD6476EC0B1C /* Pods-TRUHome_Example-resources.sh */,
+				6D39AE50B2D8A7CAE8232C5FE0F1EBC4 /* Pods-TRUHome_Example-umbrella.h */,
+				23BE90BBA514E176B30E9121DD4D4947 /* Pods-TRUHome_Example.debug.xcconfig */,
+				540E66422505604852956FA250A033B2 /* Pods-TRUHome_Example.release.xcconfig */,
+			);
+			name = "Pods-TRUHome_Example";
+			path = "Target Support Files/Pods-TRUHome_Example";
+			sourceTree = "<group>";
+		};
+		6A042FC51448F7993C4E296263FE9293 /* TRUHome */ = {
+			isa = PBXGroup;
+			children = (
+				DA185CE42B734DBFBCF842E32E18534D /* TRUHomeViewController.h */,
+				14160551C6EB1C3CF672DE825F9B8230 /* TRUHomeViewController.m */,
+				5BEED61122DCF58A7BAED57B5D69B4E7 /* Pod */,
+				11474C09A73D25F1B85FC79D45909433 /* Support Files */,
+			);
+			name = TRUHome;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				7EB599AECA09AEBD2BBF88180E0FAE06 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				DCB1B139A71286D9DB84E4E38BEB7212 /* Products */,
+				A96332A2683E87627D9DAC1EFB3805EC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7EB599AECA09AEBD2BBF88180E0FAE06 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A042FC51448F7993C4E296263FE9293 /* TRUHome */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8AED1B3F4504697BB426B5080A1019CB /* Pods-TRUHome_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2F69C94D838164AC77D616132AE30B72 /* Info.plist */,
+				0FF123EE885CA2D935E4CE98ED82AAB0 /* Pods-TRUHome_Tests.modulemap */,
+				903EC64EFB7F3C85FD34C85447125CEA /* Pods-TRUHome_Tests-acknowledgements.markdown */,
+				7E564720179492CBF58C4AF9E60EA4AD /* Pods-TRUHome_Tests-acknowledgements.plist */,
+				34C96BA4ED0C49E9AB97BFA6C7AF8CCB /* Pods-TRUHome_Tests-dummy.m */,
+				FD08803F6C3229109F19C4A0A3E21081 /* Pods-TRUHome_Tests-frameworks.sh */,
+				9E07DA7A73C18431D8417CF402641875 /* Pods-TRUHome_Tests-resources.sh */,
+				5E33B3B2CE4080DE607A8ED7B69CAD42 /* Pods-TRUHome_Tests-umbrella.h */,
+				E0C2EC0AF76DA38DD6553246ADE872B1 /* Pods-TRUHome_Tests.debug.xcconfig */,
+				B01EBFD6A6931A37D5BCF3A059019848 /* Pods-TRUHome_Tests.release.xcconfig */,
+			);
+			name = "Pods-TRUHome_Tests";
+			path = "Target Support Files/Pods-TRUHome_Tests";
+			sourceTree = "<group>";
+		};
+		A96332A2683E87627D9DAC1EFB3805EC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C55D0B7E2AB6E8B21503598736A05C4 /* Pods-TRUHome_Example */,
+				8AED1B3F4504697BB426B5080A1019CB /* Pods-TRUHome_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DCB1B139A71286D9DB84E4E38BEB7212 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D96E057E0914F23FAE7B1FD2DFD4C4C6 /* Pods_TRUHome_Example.framework */,
+				C120F7264B6282449CEAAC50EC908709 /* Pods_TRUHome_Tests.framework */,
+				A372C664BE4E80956C4CDCFAA7F1D7DA /* TRUHome.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5C7984D2C67DD2BB4E4D7B8E0326ED04 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F093FBF7AB802C1ED502F4CD0621911 /* TRUHome-umbrella.h in Headers */,
+				FE1265D6C72C35D236F67ADBC816DD2E /* TRUHomeViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD33FB00C6AAEEE378576E394410ACBC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A55EC67F9599F20685BC182065C9FB9 /* Pods-TRUHome_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEDFCF4BCD42253566A7CF784E6037C3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9C3ED6970058573261892B992D128EE /* Pods-TRUHome_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		03CD31910DC3206BF88A7D9144627C09 /* Pods-TRUHome_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84FB322F08763EA928A974C7F4708B89 /* Build configuration list for PBXNativeTarget "Pods-TRUHome_Tests" */;
+			buildPhases = (
+				BD6B4A5A0D8E36689FEBDA7970DF2448 /* Sources */,
+				2F8F19520FBC6124941FF2ADAF53D452 /* Frameworks */,
+				CD33FB00C6AAEEE378576E394410ACBC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0D5423C4FF884203133ABEB7C3DA915 /* PBXTargetDependency */,
+			);
+			name = "Pods-TRUHome_Tests";
+			productName = "Pods-TRUHome_Tests";
+			productReference = C120F7264B6282449CEAAC50EC908709 /* Pods_TRUHome_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		144E666A8538FEE06087D6AC9E85BF3D /* Pods-TRUHome_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFFED6F836AE5F1464A7D63B0425DEEF /* Build configuration list for PBXNativeTarget "Pods-TRUHome_Example" */;
+			buildPhases = (
+				F28452FBFA672BCB5637F3280A167047 /* Sources */,
+				C4AF8D4E71589AD8986E4F70890B00A6 /* Frameworks */,
+				FEDFCF4BCD42253566A7CF784E6037C3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				026AA6B634BF0B6C4BBC484B7F50EC66 /* PBXTargetDependency */,
+			);
+			name = "Pods-TRUHome_Example";
+			productName = "Pods-TRUHome_Example";
+			productReference = D96E057E0914F23FAE7B1FD2DFD4C4C6 /* Pods_TRUHome_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CFB9A2B71FBE6458A02ED7A305217FAE /* TRUHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB41A55AB1147106F2887950829F753B /* Build configuration list for PBXNativeTarget "TRUHome" */;
+			buildPhases = (
+				5A6105D6B964159906ED48FBFF286147 /* Sources */,
+				A7A155398C6A0B8EDCB43D2E64F77963 /* Frameworks */,
+				5C7984D2C67DD2BB4E4D7B8E0326ED04 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRUHome;
+			productName = TRUHome;
+			productReference = A372C664BE4E80956C4CDCFAA7F1D7DA /* TRUHome.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DCB1B139A71286D9DB84E4E38BEB7212 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				144E666A8538FEE06087D6AC9E85BF3D /* Pods-TRUHome_Example */,
+				03CD31910DC3206BF88A7D9144627C09 /* Pods-TRUHome_Tests */,
+				CFB9A2B71FBE6458A02ED7A305217FAE /* TRUHome */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A6105D6B964159906ED48FBFF286147 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99EFE5C57938974D41EE12B9CAC2E074 /* TRUHome-dummy.m in Sources */,
+				C4E0B2D3E85C74DDDC7902640CDFACF6 /* TRUHomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD6B4A5A0D8E36689FEBDA7970DF2448 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DF89EB59653D6BDFA8257B52188F4A /* Pods-TRUHome_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F28452FBFA672BCB5637F3280A167047 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EEE13B83FD2663EAFBA7B6D998D31FA /* Pods-TRUHome_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		026AA6B634BF0B6C4BBC484B7F50EC66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TRUHome;
+			target = CFB9A2B71FBE6458A02ED7A305217FAE /* TRUHome */;
+			targetProxy = EF33AD16CCD2157F2DF157DDA0B76AA2 /* PBXContainerItemProxy */;
+		};
+		E0D5423C4FF884203133ABEB7C3DA915 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TRUHome_Example";
+			target = 144E666A8538FEE06087D6AC9E85BF3D /* Pods-TRUHome_Example */;
+			targetProxy = 7FD1489DA9E9CD31B457DE99C52D8B1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		08E6005CFB7441267C2EDD9B09D346A4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B01EBFD6A6931A37D5BCF3A059019848 /* Pods-TRUHome_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TRUHome_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TRUHome_Tests/Pods-TRUHome_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5344A2EB283BEB0DF2382FFF51B44260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0C2EC0AF76DA38DD6553246ADE872B1 /* Pods-TRUHome_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TRUHome_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TRUHome_Tests/Pods-TRUHome_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A981EC21523B9114AB57CBC36668657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23BE90BBA514E176B30E9121DD4D4947 /* Pods-TRUHome_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TRUHome_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TRUHome_Example/Pods-TRUHome_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		81362294FD36FCAC2FFE98210096200A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1E033BDD38D2577126067A0DA8F826A /* TRUHome.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TRUHome/TRUHome-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TRUHome/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TRUHome/TRUHome.modulemap";
+				PRODUCT_MODULE_NAME = TRUHome;
+				PRODUCT_NAME = TRUHome;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		DF6E50DC86B4152B26ABE95781FA8D05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1E033BDD38D2577126067A0DA8F826A /* TRUHome.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TRUHome/TRUHome-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TRUHome/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TRUHome/TRUHome.modulemap";
+				PRODUCT_MODULE_NAME = TRUHome;
+				PRODUCT_NAME = TRUHome;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F11CA8C4593C5D896977B2F9FBC85EA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 540E66422505604852956FA250A033B2 /* Pods-TRUHome_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TRUHome_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TRUHome_Example/Pods-TRUHome_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84FB322F08763EA928A974C7F4708B89 /* Build configuration list for PBXNativeTarget "Pods-TRUHome_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5344A2EB283BEB0DF2382FFF51B44260 /* Debug */,
+				08E6005CFB7441267C2EDD9B09D346A4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB41A55AB1147106F2887950829F753B /* Build configuration list for PBXNativeTarget "TRUHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF6E50DC86B4152B26ABE95781FA8D05 /* Debug */,
+				81362294FD36FCAC2FFE98210096200A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFFED6F836AE5F1464A7D63B0425DEEF /* Build configuration list for PBXNativeTarget "Pods-TRUHome_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A981EC21523B9114AB57CBC36668657 /* Debug */,
+				F11CA8C4593C5D896977B2F9FBC85EA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

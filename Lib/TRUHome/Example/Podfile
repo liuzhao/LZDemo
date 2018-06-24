@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TRUHome_Example' do
+  pod 'TRUHome', :path => '../'
+
+  target 'TRUHome_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -14,12 +14,14 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
+  - TRUHome (0.1.0)
   - TRULogining (0.1.0):
     - TRUNetworking
   - TRUNetworking (0.2.0):
     - AFNetworking
 
 DEPENDENCIES:
+  - TRUHome (from `Lib/TRUHome`)
   - TRULogining (from `Lib/TRULogining`)
   - TRUNetworking (~> 0.2.0)
 
@@ -29,14 +31,17 @@ SPEC REPOS:
     - TRUNetworking
 
 EXTERNAL SOURCES:
+  TRUHome:
+    :path: Lib/TRUHome
   TRULogining:
     :path: Lib/TRULogining
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  TRUHome: db5eddeed530309fd9c37266277175d71ba047a6
   TRULogining: 0d781f50ee334628f2f2e6619a3d4459ea6c6daf
   TRUNetworking: 8abf905c31b421c2f81be6b833a3840e6d1ea20f
 
-PODFILE CHECKSUM: ee525a4c38e2d6ce0040bb1626a8bd8865f81980
+PODFILE CHECKSUM: cc65aeeee8149f8d7044cd80e65b22c4e9b72b32
 
 COCOAPODS: 1.5.0

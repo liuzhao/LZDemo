@@ -1,0 +1,16 @@
+PODS:
+  - TRUHome (0.1.0)
+
+DEPENDENCIES:
+  - TRUHome (from `../`)
+
+EXTERNAL SOURCES:
+  TRUHome:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TRUHome: db5eddeed530309fd9c37266277175d71ba047a6
+
+PODFILE CHECKSUM: da37b26220bbaf6759024980fe0ce3f876f21aa3
+
+COCOAPODS: 1.5.0

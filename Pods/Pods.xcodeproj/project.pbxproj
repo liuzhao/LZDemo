@@ -8,96 +8,107 @@
 
 /* Begin PBXBuildFile section */
 		03A1E0F31FD6349A9A2E45D70BB854F0 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 5401762463D04BBCF891950A91F01F51 /* AFURLResponseSerialization.m */; };
+		0E060D04F62E5CCD6847A9724862FBFF /* TRUHome-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 023A713CD351407BB1433CB2E227ACD4 /* TRUHome-dummy.m */; };
 		10D424C4D27AFFBC8874723D49E6A35D /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 508A7C6CBEB5D44C6653313ECFDB2D58 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		110245E6A63AF3FE7D75EA0431AF81C2 /* TRUNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F9854FC5979BCE7D30097E59017A66 /* TRUNetworking.m */; };
 		1374F6F261BA8432F8996B1F13D23478 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12B8AE370B76B8AACDAD42E780C052CF /* AFNetworking-dummy.m */; };
 		13C301A676B6175FD6B857B3F4E22815 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = EACC2F410F729058216E4AB04D37A2DF /* UIActivityIndicatorView+AFNetworking.m */; };
 		1444B9A3E45480C05941E8D3D712FF24 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = DC2F10D9A0A70B41CF808EFAA8015093 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		18CD9CC439C9D6F9E81D96A7867C976C /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 247B52E0239DFCC403EC34C275EB9607 /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1B855B6695E192D3DB62F6C6C4FB3CF5 /* TRULogining-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC12FBA1042692AB0464CBE604C6879 /* TRULogining-dummy.m */; };
-		206EB81A244B73C95072DCD941E271FC /* TRUNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C1F9854FC5979BCE7D30097E59017A66 /* TRUNetworking.m */; };
-		296D89AF35FCAADC346FC57E6DC48C31 /* TRUViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F4856066E3D45136B4EB2839BFB02615 /* TRUViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		288355E59238DE991B0B528878F0EA7C /* TRUNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D19B9F9A0FC2660A4216A1D126D356D2 /* TRUNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2A278FFEFF2A9625DD296E65D97B359B /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FED223DE8D242DDAB910F845AA17583 /* UIProgressView+AFNetworking.m */; };
 		2B83541D4E65BA7076A9A01F552AE0C9 /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B8C76792A8D05F1FDBD099D08E6E4C7 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		2F2954EC3ABB147F09630F8DA88D1917 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FDD62CC5A15E8C3932D3C707181FE5F0 /* AFAutoPurgingImageCache.m */; };
 		2F4B7C1A09BA30D02CD20B179F1B7C59 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12A9374C39A6EFA90AD3F2E64799ECC5 /* Security.framework */; };
 		2F5E22D5AB7B2A2CC505832CDB88B64D /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ECFEC35AE2F3F6E4BABAD939F63FAD3 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		353EBF64B0EAD65E008B54C147F3BDAB /* Pods-LZDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C83ADC736B6EFCFEE31E7F0F4A9DC9 /* Pods-LZDemo-dummy.m */; };
+		3CD871134C187A3C3A909C1B22EDF850 /* TRUNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C1945E1F89AA656C36F530192BB665 /* TRUNetworking-dummy.m */; };
 		4008D398A2802F2936BFC77BC87D264A /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 62A955CFFD400AF0E265F153F636130A /* AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		446032B6260F42628D59A6EDF5932FEB /* TRUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A41B5262D7683FA122359E2C39356E /* TRUViewController.m */; };
 		4E446AF686191153D62EAC9C3ABEF7A0 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 544F2B72E8B4DE9B4403AE08CF70A45C /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		553287D4AA043EFB3585DD432BE1DEF7 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D9DA6E74372F5248E9395D9454C2D506 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5678B08B4C12855D2E8D3D8E4C805C8A /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C6947C7A9A6CBCB132F4331F24628DB0 /* UIRefreshControl+AFNetworking.m */; };
 		6205EE7021ED9E789E88292CC076847A /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 98DBC0E5120ECB7282C78294D880CAAF /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		627B8656D435FF535E04971E846DA3A3 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B75F6C43F13E5CA47F2BF117290E3394 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		62C0B858F723182DAC771AF27964FE42 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 87A278C7330743F9EF8789BDBF2A5627 /* AFURLSessionManager.m */; };
+		632FFBB03A958D49726EA2AF51CF38FC /* TRUModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D625B7F489A011428CE865F85178E4 /* TRUModel.m */; };
+		6894ADB068BC6EB2D81E47B306A5ED5A /* TRULogining-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D88E92CF6B14D0E8B2DBE090F11C45 /* TRULogining-dummy.m */; };
 		68AACE5658A5E7D246D4D46818BC10E8 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 90FED6B4E7D67C934D76CF45F02135E6 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		692D9B2A72797DC53B135757CB338303 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A64716173FC0305057230E14CDCC7A77 /* CoreGraphics.framework */; };
-		6A21FD456A22617FB1A65BCF41DA8C3A /* TRUNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62C1945E1F89AA656C36F530192BB665 /* TRUNetworking-dummy.m */; };
 		6BA2C092EFD2251080167E65072EAD0C /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F9BA9B82FAD2F724BFF4EFE29ABE3C14 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6D0C97993CB772E32702F74F7E35C0CA /* TRUModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C11C2F1DBD29740EB78B39447CC9BC3 /* TRUModel.m */; };
 		6F49C376226E2396F7F8A86A47E0F071 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 40D30D44DBF387C75AE01381F475BD20 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7A323F7415D6821718000F8E9BFD47AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F921D275AC6AA48C031BF91FD4592584 /* Foundation.framework */; };
 		7D4B51B8183FFE043AC697A5538203AD /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 050DA394FF8BABDCACE7B16D8837C5E9 /* AFImageDownloader.m */; };
 		7F077E317B4CBAC0915261D757D22D58 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F77C2D42AB62C01B5E7FC6731E327291 /* AFNetworkActivityIndicatorManager.m */; };
+		8185E82429A4B0A1BBF996240CC672C6 /* TRUModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D5B91D1EA3DB16A22C931837FF401CE3 /* TRUModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8B3A9D07C4F622FDB95D4CE6CC3C73B9 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C27FC53F39F4A5B59DB8170453E4B52 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		94BED556D435B56475AAEFD83356309A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F921D275AC6AA48C031BF91FD4592584 /* Foundation.framework */; };
 		956B198769D86897A24368A5D7DD4F6E /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = F8207DDF0449D8C6381040C7E64AC0AC /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		992678453691BE2CF72019F09CA07149 /* TRUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1FD622371F97213D5368982FD5BDEDD /* TRUViewController.m */; };
 		9B82592971127A07C0DBEE79A0355DAA /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 011CC5F5279CC5FD4FF5C3889BF7DA05 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9E246A3799BBC0B6C00E76AA5C409247 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F921D275AC6AA48C031BF91FD4592584 /* Foundation.framework */; };
 		A49342C70E684FEC485E89E139969B6B /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E2D17E2CB25E691EBE0CEB2C1BA982A9 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		B137B640081D11CECEE6F6542AFCAD5C /* TRUNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D19B9F9A0FC2660A4216A1D126D356D2 /* TRUNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B59503C7F80FBB22666FC6F0403405C1 /* Pods-LZDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C83ADC736B6EFCFEE31E7F0F4A9DC9 /* Pods-LZDemo-dummy.m */; };
 		B7C7F5D6D9CB25DBA504BDA60131CB6F /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A1A5CD0A99BC5E295DC79263E4158F2F /* UIWebView+AFNetworking.m */; };
 		BFF671705EC5731DBFF84BF0DE432BFC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC8A7C0B6179467051ED95E59DB2AF9F /* SystemConfiguration.framework */; };
 		C2A146293ACCC7A3C103F3327687C3C2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9FDBCCB266ACFED93E55656FD8A014C /* MobileCoreServices.framework */; };
 		C46681CFB1CBBB93ABCE96558C3602D3 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 804B3D971ADA51852D13337794C5BC9C /* UIButton+AFNetworking.m */; };
+		CC8AEADD6444DC5BE7C385807C719455 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F921D275AC6AA48C031BF91FD4592584 /* Foundation.framework */; };
 		D032C2EAE0A010E2244EEF6F3D750D33 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0D4415AB113C9999D8A37778521848 /* AFHTTPSessionManager.m */; };
+		D53BAC0F7AC840ACCE195FFBEF880FE4 /* TRUHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5097E5356C86E854BF288FC4A0E0C62 /* TRUHomeViewController.m */; };
 		D8C57235BA506BC6B1EC0789FDE00762 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B3EE0018C10546E6A07C1F8BAA7C3CA9 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D9F91A178B8F82606DC545522C91CFD8 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA9AF10FBAAE86A0E063A6D21E53EF8 /* AFSecurityPolicy.m */; };
 		E0992B55C88DF962F785625CED11FA0B /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B56875C84F11C2238BF9D84F8A493B47 /* AFNetworkReachabilityManager.m */; };
+		E887C7B4C871A45DC85DF1FFBC2421E9 /* TRUHomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A9D2A8DF70867FAA58BD841F01A9655 /* TRUHomeViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		ECC4CEB25D97F6BA002E04DED3EE2556 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D97F9265B48003CC8ED879D3AA1AD26F /* UIImageView+AFNetworking.m */; };
-		F4DD53B47AE8480A0B75D2DB6CE96242 /* TRUModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D5978E18E54B631775CDF3651DCA6074 /* TRUModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F3C09C3DA605638980754E4FA90B066D /* TRUViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0014E768CF381133A2D7F13406FD77FD /* TRUViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F42CAF9313B196389CDAC6E99F26395C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F921D275AC6AA48C031BF91FD4592584 /* Foundation.framework */; };
 		F5C708AF54ADB71E6A4BEFB9F629191C /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 417B137E6B6865CC6E13C6D4CECD9592 /* AFURLRequestSerialization.m */; };
-		F7A6200318354F736CEC0F32CC9176B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F921D275AC6AA48C031BF91FD4592584 /* Foundation.framework */; };
-		F918B3263BFA9D611544B215710F9898 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F921D275AC6AA48C031BF91FD4592584 /* Foundation.framework */; };
 		F96F80C73456E5D813B71A183A573929 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = B5F1A474A0CBF326F020788C63B79CFA /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FB8411AD61142D6200BB5922A93A72B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F921D275AC6AA48C031BF91FD4592584 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3622B575F5333D222692B1B93C950936 /* PBXContainerItemProxy */ = {
+		1CF90E022B5063E9821FBC2F3CB5BBB4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9A79D425D5D2C6EC04B58B2F1C8D2A8D;
-			remoteInfo = AFNetworking;
-		};
-		370A3E9EF6C6CB44E02DD80ACA60A0EA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 8AB1184C7C93D9B8F36C715D41AAD81F;
+			remoteGlobalIDString = FCCBB309821A75EFE261FD2C333BEC0D;
 			remoteInfo = TRUNetworking;
 		};
-		39BB22AA5E2EE72F0A2FF3AD3F7F851F /* PBXContainerItemProxy */ = {
+		221A018B582035E647DBD799B25C33F7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9A79D425D5D2C6EC04B58B2F1C8D2A8D;
-			remoteInfo = AFNetworking;
+			remoteGlobalIDString = FCCBB309821A75EFE261FD2C333BEC0D;
+			remoteInfo = TRUNetworking;
 		};
-		3D5A96AD246B68530256993FFB9424E1 /* PBXContainerItemProxy */ = {
+		44D838D80A5841A681E172A20805732D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D9259411A7DA2B70E9CEC5284AE17211;
+			remoteGlobalIDString = D9E1EF4B2FC07E29C718404A97481DBF;
 			remoteInfo = TRULogining;
 		};
-		5E74BB1621CDE2C0CA9EB5302E13CC75 /* PBXContainerItemProxy */ = {
+		4689B232B31C1ED5ADC80E1976F0AA96 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8AB1184C7C93D9B8F36C715D41AAD81F;
-			remoteInfo = TRUNetworking;
+			remoteGlobalIDString = 88348BB9DC2CE99FD3A8C1488BB68919;
+			remoteInfo = TRUHome;
 		};
-		E975C3F030A5CACDC054CE7568AEC132 /* PBXContainerItemProxy */ = {
+		88C53BCC7EDC19939E3E8FD827724DD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A79D425D5D2C6EC04B58B2F1C8D2A8D;
+			remoteInfo = AFNetworking;
+		};
+		90EF78C083D992102C515851D94475EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A79D425D5D2C6EC04B58B2F1C8D2A8D;
+			remoteInfo = AFNetworking;
+		};
+		C7C39B8F0784915C49CA1DF07DA29D5A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -107,34 +118,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0014E768CF381133A2D7F13406FD77FD /* TRUViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TRUViewController.h; sourceTree = "<group>"; };
+		007DBEBEE528E1C076765110968E1795 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		011CC5F5279CC5FD4FF5C3889BF7DA05 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
 		01C83ADC736B6EFCFEE31E7F0F4A9DC9 /* Pods-LZDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LZDemo-dummy.m"; sourceTree = "<group>"; };
+		023A713CD351407BB1433CB2E227ACD4 /* TRUHome-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TRUHome-dummy.m"; sourceTree = "<group>"; };
 		05003D29F3268F90B0F50292046C9E0A /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
 		050DA394FF8BABDCACE7B16D8837C5E9 /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
+		05D625B7F489A011428CE865F85178E4 /* TRUModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TRUModel.m; sourceTree = "<group>"; };
+		114F57A48E97373F89F8E0B06534F3B4 /* TRUHome-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRUHome-prefix.pch"; sourceTree = "<group>"; };
 		12A9374C39A6EFA90AD3F2E64799ECC5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		12B8AE370B76B8AACDAD42E780C052CF /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
 		190613C444E492CAC8DBBC495CC4493A /* Pods-LZDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LZDemo-resources.sh"; sourceTree = "<group>"; };
-		1C11C2F1DBD29740EB78B39447CC9BC3 /* TRUModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TRUModel.m; sourceTree = "<group>"; };
 		20CD5BA16B5E8E1050365EE48E64CAE9 /* Pods-LZDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LZDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		23749C878DF1C9E7838ADDC66C448790 /* Pods-LZDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LZDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		247B52E0239DFCC403EC34C275EB9607 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
-		25BF4174567032E86C648728D63D7267 /* TRULogining.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TRULogining.xcconfig; sourceTree = "<group>"; };
-		2F8DAC7405B7160BF1BB2D602DAF396B /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAFNetworking.a; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		39E95A0F454368B094BB184DBAEC9C4F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		29A41B5262D7683FA122359E2C39356E /* TRUViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TRUViewController.m; sourceTree = "<group>"; };
 		3ECFEC35AE2F3F6E4BABAD939F63FAD3 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		3FCEB9FE6F50666723445F7626DC6B73 /* TRUHome.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TRUHome.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		40D30D44DBF387C75AE01381F475BD20 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
 		417B137E6B6865CC6E13C6D4CECD9592 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		4A9D2A8DF70867FAA58BD841F01A9655 /* TRUHomeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TRUHomeViewController.h; path = TRUHome/Classes/TRUHomeViewController.h; sourceTree = "<group>"; };
+		4D720513162B41AB84F03D08D476BCF6 /* libTRUHome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTRUHome.a; path = libTRUHome.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		508A7C6CBEB5D44C6653313ECFDB2D58 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
 		5401762463D04BBCF891950A91F01F51 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		544F2B72E8B4DE9B4403AE08CF70A45C /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
 		5C27FC53F39F4A5B59DB8170453E4B52 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		5DAA6B7883AE1AD12635C4D4B7A3AAEB /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libAFNetworking.a; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		62A955CFFD400AF0E265F153F636130A /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
 		62C1945E1F89AA656C36F530192BB665 /* TRUNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TRUNetworking-dummy.m"; sourceTree = "<group>"; };
-		630B6BDD9340FC82D8D48157E92F4DDC /* TRULogining.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TRULogining.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		68C79AA275C42757372E49AF78A8126A /* TRULogining-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRULogining-prefix.pch"; sourceTree = "<group>"; };
-		7E4045D7FC3E7397E949305AAF4C7E32 /* libPods-LZDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LZDemo.a"; path = "libPods-LZDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67DA2EE46E11DDB7886A0916399F973C /* libPods-LZDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LZDemo.a"; path = "libPods-LZDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		804B3D971ADA51852D13337794C5BC9C /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		84D88E92CF6B14D0E8B2DBE090F11C45 /* TRULogining-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TRULogining-dummy.m"; sourceTree = "<group>"; };
 		87A278C7330743F9EF8789BDBF2A5627 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		8C64A9C84125C3EB6C12074C06EACF99 /* TRULogining-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRULogining-prefix.pch"; sourceTree = "<group>"; };
+		8FEC170E97FF969814CF906F09C59183 /* libTRUNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTRUNetworking.a; path = libTRUNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FED223DE8D242DDAB910F845AA17583 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
 		90FED6B4E7D67C934D76CF45F02135E6 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
 		9279B3B2D3581CB014299F33D5BBFE26 /* Pods-LZDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LZDemo-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -143,42 +161,52 @@
 		9B8C76792A8D05F1FDBD099D08E6E4C7 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
 		9E301960191A1E8B4546590217423543 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
 		A1A5CD0A99BC5E295DC79263E4158F2F /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		A5097E5356C86E854BF288FC4A0E0C62 /* TRUHomeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TRUHomeViewController.m; path = TRUHome/Classes/TRUHomeViewController.m; sourceTree = "<group>"; };
+		A584635D42A217A85BC77EEA5B7FAE95 /* TRULogining.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TRULogining.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A64716173FC0305057230E14CDCC7A77 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		A6575F19A3E40988B7696148D21BDECB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		A9150F411A794662DEFEC9917EB541F3 /* libTRUNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTRUNetworking.a; path = libTRUNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1FD622371F97213D5368982FD5BDEDD /* TRUViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TRUViewController.m; sourceTree = "<group>"; };
 		B3EE0018C10546E6A07C1F8BAA7C3CA9 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
 		B56875C84F11C2238BF9D84F8A493B47 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
 		B5F1A474A0CBF326F020788C63B79CFA /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
 		B75F6C43F13E5CA47F2BF117290E3394 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
 		B9FDBCCB266ACFED93E55656FD8A014C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
-		BAC12FBA1042692AB0464CBE604C6879 /* TRULogining-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TRULogining-dummy.m"; sourceTree = "<group>"; };
+		BA27BD952852B4786FE28C8958582AE0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BA691649750B5C377FF81EA63EC8826C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		C1F9854FC5979BCE7D30097E59017A66 /* TRUNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TRUNetworking.m; path = TRUNetworking/Classes/TRUNetworking.m; sourceTree = "<group>"; };
 		C6947C7A9A6CBCB132F4331F24628DB0 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		CACFD5B1F86BFFBA7C1201A912CDD224 /* libTRULogining.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTRULogining.a; path = libTRULogining.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD266B5B0F44E76389289CB8BDC435B6 /* TRUHome.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TRUHome.xcconfig; sourceTree = "<group>"; };
 		CF0D4415AB113C9999D8A37778521848 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
 		D19B9F9A0FC2660A4216A1D126D356D2 /* TRUNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TRUNetworking.h; path = TRUNetworking/Classes/TRUNetworking.h; sourceTree = "<group>"; };
 		D334FCEB2FC7F3B1695BA8347D023B37 /* Pods-LZDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LZDemo.release.xcconfig"; sourceTree = "<group>"; };
-		D5978E18E54B631775CDF3651DCA6074 /* TRUModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TRUModel.h; sourceTree = "<group>"; };
+		D5B91D1EA3DB16A22C931837FF401CE3 /* TRUModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TRUModel.h; sourceTree = "<group>"; };
 		D7A768593B71053277A8B08BBD0567CF /* TRUNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRUNetworking-prefix.pch"; sourceTree = "<group>"; };
 		D97F9265B48003CC8ED879D3AA1AD26F /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		D9DA6E74372F5248E9395D9454C2D506 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		DC2F10D9A0A70B41CF808EFAA8015093 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
 		DFAA62661665D312A8E9750A4F018F4A /* TRUNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TRUNetworking.xcconfig; sourceTree = "<group>"; };
 		E2D17E2CB25E691EBE0CEB2C1BA982A9 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
-		E3124D81CDF752527CDABFCF617FEE4B /* libTRULogining.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTRULogining.a; path = libTRULogining.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E376AC3E62FBC60699106F36C648548A /* TRULogining.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TRULogining.xcconfig; sourceTree = "<group>"; };
 		EACC2F410F729058216E4AB04D37A2DF /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
 		EC8A7C0B6179467051ED95E59DB2AF9F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		F4856066E3D45136B4EB2839BFB02615 /* TRUViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TRUViewController.h; sourceTree = "<group>"; };
 		F77C2D42AB62C01B5E7FC6731E327291 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
 		F7A48FF0B5B54E6C8DDEBB4973276BA6 /* Pods-LZDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LZDemo-frameworks.sh"; sourceTree = "<group>"; };
 		F8207DDF0449D8C6381040C7E64AC0AC /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
 		F921D275AC6AA48C031BF91FD4592584 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		F9BA9B82FAD2F724BFF4EFE29ABE3C14 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		FC1EFCA8B14B0A0130B7D1847CA7434F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		FCA9AF10FBAAE86A0E063A6D21E53EF8 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
 		FDD62CC5A15E8C3932D3C707181FE5F0 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		04B549D8A1D5C36D985D38F6E40FCF49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8411AD61142D6200BB5922A93A72B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2045DF49883B933079C43F0975C56DE0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -191,33 +219,56 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		58E1E86AD531B93290EDD21DA95A385A /* Frameworks */ = {
+		3EE447E2806C130AF86AE35CACBCCBCA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F918B3263BFA9D611544B215710F9898 /* Foundation.framework in Frameworks */,
+				94BED556D435B56475AAEFD83356309A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8C5889D6F53FAE37EC4780E99B4F381B /* Frameworks */ = {
+		955173D6850104BE485658F8B42A56C3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7A6200318354F736CEC0F32CC9176B6 /* Foundation.framework in Frameworks */,
+				CC8AEADD6444DC5BE7C385807C719455 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FF177B2AF726478E343CEBD9ABF97466 /* Frameworks */ = {
+		A89AD1AC3D8FD324B25B05364C33744F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E246A3799BBC0B6C00E76AA5C409247 /* Foundation.framework in Frameworks */,
+				F42CAF9313B196389CDAC6E99F26395C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1118C3361BE50663EA22D37DF32F0315 /* TRULogining */ = {
+			isa = PBXGroup;
+			children = (
+				6C71B20313545A88E0DF632F4014C573 /* Models */,
+				C99ADF2AC4299D413EFE8A1699708460 /* Pod */,
+				1A0C6EC943FB1A471B25AE21FB29D8B5 /* Support Files */,
+				97383951C169897B602355477A234D13 /* ViewControllers */,
+			);
+			name = TRULogining;
+			path = ../Lib/TRULogining;
+			sourceTree = "<group>";
+		};
+		1A0C6EC943FB1A471B25AE21FB29D8B5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E376AC3E62FBC60699106F36C648548A /* TRULogining.xcconfig */,
+				84D88E92CF6B14D0E8B2DBE090F11C45 /* TRULogining-dummy.m */,
+				8C64A9C84125C3EB6C12074C06EACF99 /* TRULogining-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/TRULogining";
+			sourceTree = "<group>";
+		};
 		1B585618364548DA453270E10C4A2B91 /* Security */ = {
 			isa = PBXGroup;
 			children = (
@@ -254,24 +305,6 @@
 				87A278C7330743F9EF8789BDBF2A5627 /* AFURLSessionManager.m */,
 			);
 			name = NSURLSession;
-			sourceTree = "<group>";
-		};
-		35CD7878A29574FDCD797337B8EF0663 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				F4856066E3D45136B4EB2839BFB02615 /* TRUViewController.h */,
-				B1FD622371F97213D5368982FD5BDEDD /* TRUViewController.m */,
-			);
-			name = ViewControllers;
-			path = TRULogining/Classes/ViewControllers;
-			sourceTree = "<group>";
-		};
-		3ACDAC2BAE536D75CE0686683438D471 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7C213A69C36C5E787A678177EDC57655 /* TRULogining */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		41FDD7CD34639A553BF887DBFCC4CB6E /* Support Files */ = {
@@ -321,39 +354,58 @@
 			name = Reachability;
 			sourceTree = "<group>";
 		};
-		6C8B386BB040E6F1B6B2D3104D775E1E /* Products */ = {
+		6C71B20313545A88E0DF632F4014C573 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				2F8DAC7405B7160BF1BB2D602DAF396B /* libAFNetworking.a */,
-				7E4045D7FC3E7397E949305AAF4C7E32 /* libPods-LZDemo.a */,
-				E3124D81CDF752527CDABFCF617FEE4B /* libTRULogining.a */,
-				A9150F411A794662DEFEC9917EB541F3 /* libTRUNetworking.a */,
+				D5B91D1EA3DB16A22C931837FF401CE3 /* TRUModel.h */,
+				05D625B7F489A011428CE865F85178E4 /* TRUModel.m */,
 			);
-			name = Products;
+			name = Models;
+			path = TRULogining/Classes/Models;
 			sourceTree = "<group>";
 		};
-		7C213A69C36C5E787A678177EDC57655 /* TRULogining */ = {
+		6F2C0D7681EBE5AB8282CCC8FECEFE38 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				C4E906E024DA5C8AF9853C2BCDDC7938 /* Models */,
-				C199981845A69C5C270E38BAA2957085 /* Pod */,
-				AD1E6CACA31B7A721AC7DA5EB42CE966 /* Support Files */,
-				35CD7878A29574FDCD797337B8EF0663 /* ViewControllers */,
+				007DBEBEE528E1C076765110968E1795 /* LICENSE */,
+				BA691649750B5C377FF81EA63EC8826C /* README.md */,
+				3FCEB9FE6F50666723445F7626DC6B73 /* TRUHome.podspec */,
 			);
-			name = TRULogining;
-			path = ../Lib/TRULogining;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7D901FD342C5A4359599E7C47B7C6294 /* TRUHome */ = {
+			isa = PBXGroup;
+			children = (
+				4A9D2A8DF70867FAA58BD841F01A9655 /* TRUHomeViewController.h */,
+				A5097E5356C86E854BF288FC4A0E0C62 /* TRUHomeViewController.m */,
+				6F2C0D7681EBE5AB8282CCC8FECEFE38 /* Pod */,
+				9797E37C4239D227357C0D865B310DC1 /* Support Files */,
+			);
+			name = TRUHome;
+			path = ../Lib/TRUHome;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				3ACDAC2BAE536D75CE0686683438D471 /* Development Pods */,
+				F370FBBA98AD50F38D26DA7B8BA40A66 /* Development Pods */,
 				20B56609144CE204DFA8221F742B2D76 /* Frameworks */,
 				27D45B3114A96DB494A31DD792FD7313 /* Pods */,
-				6C8B386BB040E6F1B6B2D3104D775E1E /* Products */,
+				DDA079CAED44F696F58F4E230D9D64F9 /* Products */,
 				FAC8EAF4938EA8F0A43E7B0B3B2C31BE /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		97383951C169897B602355477A234D13 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0014E768CF381133A2D7F13406FD77FD /* TRUViewController.h */,
+				29A41B5262D7683FA122359E2C39356E /* TRUViewController.m */,
+			);
+			name = ViewControllers;
+			path = TRULogining/Classes/ViewControllers;
 			sourceTree = "<group>";
 		};
 		974A638568A3C0E7C5EE09BE96CF9DB7 /* Pods-LZDemo */ = {
@@ -371,35 +423,25 @@
 			path = "Target Support Files/Pods-LZDemo";
 			sourceTree = "<group>";
 		};
-		AD1E6CACA31B7A721AC7DA5EB42CE966 /* Support Files */ = {
+		9797E37C4239D227357C0D865B310DC1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				25BF4174567032E86C648728D63D7267 /* TRULogining.xcconfig */,
-				BAC12FBA1042692AB0464CBE604C6879 /* TRULogining-dummy.m */,
-				68C79AA275C42757372E49AF78A8126A /* TRULogining-prefix.pch */,
+				CD266B5B0F44E76389289CB8BDC435B6 /* TRUHome.xcconfig */,
+				023A713CD351407BB1433CB2E227ACD4 /* TRUHome-dummy.m */,
+				114F57A48E97373F89F8E0B06534F3B4 /* TRUHome-prefix.pch */,
 			);
 			name = "Support Files";
-			path = "../../Pods/Target Support Files/TRULogining";
+			path = "../../Pods/Target Support Files/TRUHome";
 			sourceTree = "<group>";
 		};
-		C199981845A69C5C270E38BAA2957085 /* Pod */ = {
+		C99ADF2AC4299D413EFE8A1699708460 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				A6575F19A3E40988B7696148D21BDECB /* LICENSE */,
-				39E95A0F454368B094BB184DBAEC9C4F /* README.md */,
-				630B6BDD9340FC82D8D48157E92F4DDC /* TRULogining.podspec */,
+				BA27BD952852B4786FE28C8958582AE0 /* LICENSE */,
+				FC1EFCA8B14B0A0130B7D1847CA7434F /* README.md */,
+				A584635D42A217A85BC77EEA5B7FAE95 /* TRULogining.podspec */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		C4E906E024DA5C8AF9853C2BCDDC7938 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				D5978E18E54B631775CDF3651DCA6074 /* TRUModel.h */,
-				1C11C2F1DBD29740EB78B39447CC9BC3 /* TRUModel.m */,
-			);
-			name = Models;
-			path = TRULogining/Classes/Models;
 			sourceTree = "<group>";
 		};
 		CB79318D3E8AF2183319FF8098C5AE5E /* iOS */ = {
@@ -436,6 +478,18 @@
 			path = "../Target Support Files/AFNetworking";
 			sourceTree = "<group>";
 		};
+		DDA079CAED44F696F58F4E230D9D64F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5DAA6B7883AE1AD12635C4D4B7A3AAEB /* libAFNetworking.a */,
+				67DA2EE46E11DDB7886A0916399F973C /* libPods-LZDemo.a */,
+				4D720513162B41AB84F03D08D476BCF6 /* libTRUHome.a */,
+				CACFD5B1F86BFFBA7C1201A912CDD224 /* libTRULogining.a */,
+				8FEC170E97FF969814CF906F09C59183 /* libTRUNetworking.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		E25321CF108ECD98CD24D3DC729D6CF5 /* TRUNetworking */ = {
 			isa = PBXGroup;
 			children = (
@@ -462,6 +516,15 @@
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
+		F370FBBA98AD50F38D26DA7B8BA40A66 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7D901FD342C5A4359599E7C47B7C6294 /* TRUHome */,
+				1118C3361BE50663EA22D37DF32F0315 /* TRULogining */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		FAC8EAF4938EA8F0A43E7B0B3B2C31BE /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -473,6 +536,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		1F404EA78C34E9856859D18BF11D4499 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				288355E59238DE991B0B528878F0EA7C /* TRUNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A4266CD9B26D38DD6CC0295E2EC1DFA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8185E82429A4B0A1BBF996240CC672C6 /* TRUModel.h in Headers */,
+				F3C09C3DA605638980754E4FA90B066D /* TRUViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6782934A359356EEBEFD48CFFB0FFE1D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -499,61 +579,52 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E1F97E25B3A0DDEF7ADD5F6B2ED25206 /* Headers */ = {
+		BF204B50BC421FF5F59CD4F95E504F50 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4DD53B47AE8480A0B75D2DB6CE96242 /* TRUModel.h in Headers */,
-				296D89AF35FCAADC346FC57E6DC48C31 /* TRUViewController.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ED824356305C43B56E452C78C409140E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B137B640081D11CECEE6F6542AFCAD5C /* TRUNetworking.h in Headers */,
+				E887C7B4C871A45DC85DF1FFBC2421E9 /* TRUHomeViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		217E5D3D2C0C732894FDFB59977E0097 /* Pods-LZDemo */ = {
+		39D0EDCAFC8CBDC3BF07C4D13401A931 /* Pods-LZDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0C54ECD3F1EF1002F17B59D7CA23C289 /* Build configuration list for PBXNativeTarget "Pods-LZDemo" */;
+			buildConfigurationList = 1C93EA10DBF5A0B325E43BA1B5C0B41B /* Build configuration list for PBXNativeTarget "Pods-LZDemo" */;
 			buildPhases = (
-				9D688CA420261647B1C46581BB1054B4 /* Sources */,
-				8C5889D6F53FAE37EC4780E99B4F381B /* Frameworks */,
+				986C89A0A6CA5ADBAB6B46AB5869A6C7 /* Sources */,
+				04B549D8A1D5C36D985D38F6E40FCF49 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A3F72F67C76400C3A3FD30CCB092C8BE /* PBXTargetDependency */,
-				8A736DD9AC59C14AB1285880C4E64A5A /* PBXTargetDependency */,
-				A8EEAA354FC29C91F90C254C5D2B221A /* PBXTargetDependency */,
+				2D64640AA22F60D80F7E1E5B0C07139A /* PBXTargetDependency */,
+				BD931C4B076458D18A1FE40641E1C0C3 /* PBXTargetDependency */,
+				50725C883DA846FD6DCA161F9934B8B5 /* PBXTargetDependency */,
+				F60E972010AB105B9CF729C2D46468B0 /* PBXTargetDependency */,
 			);
 			name = "Pods-LZDemo";
 			productName = "Pods-LZDemo";
-			productReference = 7E4045D7FC3E7397E949305AAF4C7E32 /* libPods-LZDemo.a */;
+			productReference = 67DA2EE46E11DDB7886A0916399F973C /* libPods-LZDemo.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		8AB1184C7C93D9B8F36C715D41AAD81F /* TRUNetworking */ = {
+		88348BB9DC2CE99FD3A8C1488BB68919 /* TRUHome */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9D6CF202E834279505AD1BC78FE8D2F6 /* Build configuration list for PBXNativeTarget "TRUNetworking" */;
+			buildConfigurationList = 5209538FCDD9FA67F4CCEAEA430DD646 /* Build configuration list for PBXNativeTarget "TRUHome" */;
 			buildPhases = (
-				FAE08B8A8C56A4460E3E32185BF8D5D6 /* Sources */,
-				58E1E86AD531B93290EDD21DA95A385A /* Frameworks */,
-				ED824356305C43B56E452C78C409140E /* Headers */,
+				A7EF0FE876CA0B6AE23E61F0CF8B9C5B /* Sources */,
+				955173D6850104BE485658F8B42A56C3 /* Frameworks */,
+				BF204B50BC421FF5F59CD4F95E504F50 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7DCF62F2418C9DA97817B25798DCEFA5 /* PBXTargetDependency */,
 			);
-			name = TRUNetworking;
-			productName = TRUNetworking;
-			productReference = A9150F411A794662DEFEC9917EB541F3 /* libTRUNetworking.a */;
+			name = TRUHome;
+			productName = TRUHome;
+			productReference = 4D720513162B41AB84F03D08D476BCF6 /* libTRUHome.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		9A79D425D5D2C6EC04B58B2F1C8D2A8D /* AFNetworking */ = {
@@ -570,26 +641,44 @@
 			);
 			name = AFNetworking;
 			productName = AFNetworking;
-			productReference = 2F8DAC7405B7160BF1BB2D602DAF396B /* libAFNetworking.a */;
+			productReference = 5DAA6B7883AE1AD12635C4D4B7A3AAEB /* libAFNetworking.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		D9259411A7DA2B70E9CEC5284AE17211 /* TRULogining */ = {
+		D9E1EF4B2FC07E29C718404A97481DBF /* TRULogining */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 08E94EF347FA10616B1A5FBA1BE453AE /* Build configuration list for PBXNativeTarget "TRULogining" */;
+			buildConfigurationList = 89645EC424E829E79B7B4952B327AA08 /* Build configuration list for PBXNativeTarget "TRULogining" */;
 			buildPhases = (
-				3AEA422EAE141D2752DE7FBA7AB7A4F8 /* Sources */,
-				FF177B2AF726478E343CEBD9ABF97466 /* Frameworks */,
-				E1F97E25B3A0DDEF7ADD5F6B2ED25206 /* Headers */,
+				C60C8217A89018757DADB6BF9D7D4F84 /* Sources */,
+				A89AD1AC3D8FD324B25B05364C33744F /* Frameworks */,
+				3A4266CD9B26D38DD6CC0295E2EC1DFA /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				58D0CDB6BEC7493C322B8F589C84C127 /* PBXTargetDependency */,
-				E2A832B8B618DA020FCC493BFFB5BD80 /* PBXTargetDependency */,
+				7C97D3BAE308F2FBBA7B21A98CA89981 /* PBXTargetDependency */,
+				EE23497B5C2A0826164D4AE50F5B32D6 /* PBXTargetDependency */,
 			);
 			name = TRULogining;
 			productName = TRULogining;
-			productReference = E3124D81CDF752527CDABFCF617FEE4B /* libTRULogining.a */;
+			productReference = CACFD5B1F86BFFBA7C1201A912CDD224 /* libTRULogining.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FCCBB309821A75EFE261FD2C333BEC0D /* TRUNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB3B076905C5E467492A54DE3336912B /* Build configuration list for PBXNativeTarget "TRUNetworking" */;
+			buildPhases = (
+				05634A52E4EB1754A0D92211420DBAE0 /* Sources */,
+				3EE447E2806C130AF86AE35CACBCCBCA /* Frameworks */,
+				1F404EA78C34E9856859D18BF11D4499 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3FD52BAFEFABAC2C6738A68C69CC411 /* PBXTargetDependency */,
+			);
+			name = TRUNetworking;
+			productName = TRUNetworking;
+			productReference = 8FEC170E97FF969814CF906F09C59183 /* libTRUNetworking.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -609,34 +698,53 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 6C8B386BB040E6F1B6B2D3104D775E1E /* Products */;
+			productRefGroup = DDA079CAED44F696F58F4E230D9D64F9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				9A79D425D5D2C6EC04B58B2F1C8D2A8D /* AFNetworking */,
-				217E5D3D2C0C732894FDFB59977E0097 /* Pods-LZDemo */,
-				D9259411A7DA2B70E9CEC5284AE17211 /* TRULogining */,
-				8AB1184C7C93D9B8F36C715D41AAD81F /* TRUNetworking */,
+				39D0EDCAFC8CBDC3BF07C4D13401A931 /* Pods-LZDemo */,
+				88348BB9DC2CE99FD3A8C1488BB68919 /* TRUHome */,
+				D9E1EF4B2FC07E29C718404A97481DBF /* TRULogining */,
+				FCCBB309821A75EFE261FD2C333BEC0D /* TRUNetworking */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3AEA422EAE141D2752DE7FBA7AB7A4F8 /* Sources */ = {
+		05634A52E4EB1754A0D92211420DBAE0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B855B6695E192D3DB62F6C6C4FB3CF5 /* TRULogining-dummy.m in Sources */,
-				6D0C97993CB772E32702F74F7E35C0CA /* TRUModel.m in Sources */,
-				992678453691BE2CF72019F09CA07149 /* TRUViewController.m in Sources */,
+				3CD871134C187A3C3A909C1B22EDF850 /* TRUNetworking-dummy.m in Sources */,
+				110245E6A63AF3FE7D75EA0431AF81C2 /* TRUNetworking.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D688CA420261647B1C46581BB1054B4 /* Sources */ = {
+		986C89A0A6CA5ADBAB6B46AB5869A6C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				353EBF64B0EAD65E008B54C147F3BDAB /* Pods-LZDemo-dummy.m in Sources */,
+				B59503C7F80FBB22666FC6F0403405C1 /* Pods-LZDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7EF0FE876CA0B6AE23E61F0CF8B9C5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E060D04F62E5CCD6847A9724862FBFF /* TRUHome-dummy.m in Sources */,
+				D53BAC0F7AC840ACCE195FFBEF880FE4 /* TRUHomeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C60C8217A89018757DADB6BF9D7D4F84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6894ADB068BC6EB2D81E47B306A5ED5A /* TRULogining-dummy.m in Sources */,
+				632FFBB03A958D49726EA2AF51CF38FC /* TRUModel.m in Sources */,
+				446032B6260F42628D59A6EDF5932FEB /* TRUViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -663,101 +771,77 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FAE08B8A8C56A4460E3E32185BF8D5D6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6A21FD456A22617FB1A65BCF41DA8C3A /* TRUNetworking-dummy.m in Sources */,
-				206EB81A244B73C95072DCD941E271FC /* TRUNetworking.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		58D0CDB6BEC7493C322B8F589C84C127 /* PBXTargetDependency */ = {
+		2D64640AA22F60D80F7E1E5B0C07139A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AFNetworking;
 			target = 9A79D425D5D2C6EC04B58B2F1C8D2A8D /* AFNetworking */;
-			targetProxy = 39BB22AA5E2EE72F0A2FF3AD3F7F851F /* PBXContainerItemProxy */;
+			targetProxy = C7C39B8F0784915C49CA1DF07DA29D5A /* PBXContainerItemProxy */;
 		};
-		7DCF62F2418C9DA97817B25798DCEFA5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AFNetworking;
-			target = 9A79D425D5D2C6EC04B58B2F1C8D2A8D /* AFNetworking */;
-			targetProxy = 3622B575F5333D222692B1B93C950936 /* PBXContainerItemProxy */;
-		};
-		8A736DD9AC59C14AB1285880C4E64A5A /* PBXTargetDependency */ = {
+		50725C883DA846FD6DCA161F9934B8B5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TRULogining;
-			target = D9259411A7DA2B70E9CEC5284AE17211 /* TRULogining */;
-			targetProxy = 3D5A96AD246B68530256993FFB9424E1 /* PBXContainerItemProxy */;
+			target = D9E1EF4B2FC07E29C718404A97481DBF /* TRULogining */;
+			targetProxy = 44D838D80A5841A681E172A20805732D /* PBXContainerItemProxy */;
 		};
-		A3F72F67C76400C3A3FD30CCB092C8BE /* PBXTargetDependency */ = {
+		7C97D3BAE308F2FBBA7B21A98CA89981 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AFNetworking;
 			target = 9A79D425D5D2C6EC04B58B2F1C8D2A8D /* AFNetworking */;
-			targetProxy = E975C3F030A5CACDC054CE7568AEC132 /* PBXContainerItemProxy */;
+			targetProxy = 88C53BCC7EDC19939E3E8FD827724DD0 /* PBXContainerItemProxy */;
 		};
-		A8EEAA354FC29C91F90C254C5D2B221A /* PBXTargetDependency */ = {
+		B3FD52BAFEFABAC2C6738A68C69CC411 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = 9A79D425D5D2C6EC04B58B2F1C8D2A8D /* AFNetworking */;
+			targetProxy = 90EF78C083D992102C515851D94475EA /* PBXContainerItemProxy */;
+		};
+		BD931C4B076458D18A1FE40641E1C0C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TRUHome;
+			target = 88348BB9DC2CE99FD3A8C1488BB68919 /* TRUHome */;
+			targetProxy = 4689B232B31C1ED5ADC80E1976F0AA96 /* PBXContainerItemProxy */;
+		};
+		EE23497B5C2A0826164D4AE50F5B32D6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TRUNetworking;
-			target = 8AB1184C7C93D9B8F36C715D41AAD81F /* TRUNetworking */;
-			targetProxy = 370A3E9EF6C6CB44E02DD80ACA60A0EA /* PBXContainerItemProxy */;
+			target = FCCBB309821A75EFE261FD2C333BEC0D /* TRUNetworking */;
+			targetProxy = 1CF90E022B5063E9821FBC2F3CB5BBB4 /* PBXContainerItemProxy */;
 		};
-		E2A832B8B618DA020FCC493BFFB5BD80 /* PBXTargetDependency */ = {
+		F60E972010AB105B9CF729C2D46468B0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TRUNetworking;
-			target = 8AB1184C7C93D9B8F36C715D41AAD81F /* TRUNetworking */;
-			targetProxy = 5E74BB1621CDE2C0CA9EB5302E13CC75 /* PBXContainerItemProxy */;
+			target = FCCBB309821A75EFE261FD2C333BEC0D /* TRUNetworking */;
+			targetProxy = 221A018B582035E647DBD799B25C33F7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1CF600D957D0A0BA69DB22AD1DCDF2CC /* Debug */ = {
+		003E46D052A81E4A8F19BC7B4742FE07 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 23749C878DF1C9E7838ADDC66C448790 /* Pods-LZDemo.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				MACH_O_TYPE = staticlib;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		4C2BCE39D621BABCA2D742FF60D5EF04 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 25BF4174567032E86C648728D63D7267 /* TRULogining.xcconfig */;
+			baseConfigurationReference = DFAA62661665D312A8E9750A4F018F4A /* TRUNetworking.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/TRULogining/TRULogining-prefix.pch";
+				GCC_PREFIX_HEADER = "Target Support Files/TRUNetworking/TRUNetworking-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = TRULogining;
-				PRODUCT_NAME = TRULogining;
+				PRODUCT_MODULE_NAME = TRUNetworking;
+				PRODUCT_NAME = TRUNetworking;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		691EE0234A3BA1A3B057D3A4C23C9CCC /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -904,78 +988,29 @@
 			};
 			name = Release;
 		};
-		A3EC6B4946D9902CCBF4F1EF484941D2 /* Release */ = {
+		76DE2B0FD139E46C0C1FAEE3706608F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFAA62661665D312A8E9750A4F018F4A /* TRUNetworking.xcconfig */;
+			baseConfigurationReference = 23749C878DF1C9E7838ADDC66C448790 /* Pods-LZDemo.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/TRUNetworking/TRUNetworking-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = TRUNetworking;
-				PRODUCT_NAME = TRUNetworking;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		AAD56E530F2041792AD9DED986CA1B92 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 25BF4174567032E86C648728D63D7267 /* TRULogining.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/TRULogining/TRULogining-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = TRULogining;
-				PRODUCT_NAME = TRULogining;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		D0864AA49FD566929D4BAB468E38010A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFAA62661665D312A8E9750A4F018F4A /* TRUNetworking.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/TRUNetworking/TRUNetworking-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = TRUNetworking;
-				PRODUCT_NAME = TRUNetworking;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		F409A16065EB10C6B04941406EE8F539 /* Release */ = {
+		8EFDCA633ACB31DFCF0732925B5C24E4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D334FCEB2FC7F3B1695BA8347D023B37 /* Pods-LZDemo.release.xcconfig */;
 			buildSettings = {
@@ -997,6 +1032,123 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
+		};
+		A6928DB95C59B9DB8D754746DF0E3FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E376AC3E62FBC60699106F36C648548A /* TRULogining.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TRULogining/TRULogining-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TRULogining;
+				PRODUCT_NAME = TRULogining;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A8E8F82D536D0E1E4E01DE0B989A1255 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E376AC3E62FBC60699106F36C648548A /* TRULogining.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TRULogining/TRULogining-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TRULogining;
+				PRODUCT_NAME = TRULogining;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D940DBCC37F9D51598C5BCB23B51DB76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD266B5B0F44E76389289CB8BDC435B6 /* TRUHome.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TRUHome/TRUHome-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TRUHome;
+				PRODUCT_NAME = TRUHome;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF87449D88D40B9DE55E4AC4AC841833 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD266B5B0F44E76389289CB8BDC435B6 /* TRUHome.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TRUHome/TRUHome-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TRUHome;
+				PRODUCT_NAME = TRUHome;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F936483ED2727E838CBB573F12E1F209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFAA62661665D312A8E9750A4F018F4A /* TRUNetworking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/TRUNetworking/TRUNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = TRUNetworking;
+				PRODUCT_NAME = TRUNetworking;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		FB545C07A0415E6077520975361E521F /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1024,20 +1176,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		08E94EF347FA10616B1A5FBA1BE453AE /* Build configuration list for PBXNativeTarget "TRULogining" */ = {
+		1C93EA10DBF5A0B325E43BA1B5C0B41B /* Build configuration list for PBXNativeTarget "Pods-LZDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4C2BCE39D621BABCA2D742FF60D5EF04 /* Debug */,
-				AAD56E530F2041792AD9DED986CA1B92 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0C54ECD3F1EF1002F17B59D7CA23C289 /* Build configuration list for PBXNativeTarget "Pods-LZDemo" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1CF600D957D0A0BA69DB22AD1DCDF2CC /* Debug */,
-				F409A16065EB10C6B04941406EE8F539 /* Release */,
+				76DE2B0FD139E46C0C1FAEE3706608F9 /* Debug */,
+				8EFDCA633ACB31DFCF0732925B5C24E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1051,11 +1194,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9D6CF202E834279505AD1BC78FE8D2F6 /* Build configuration list for PBXNativeTarget "TRUNetworking" */ = {
+		5209538FCDD9FA67F4CCEAEA430DD646 /* Build configuration list for PBXNativeTarget "TRUHome" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D0864AA49FD566929D4BAB468E38010A /* Debug */,
-				A3EC6B4946D9902CCBF4F1EF484941D2 /* Release */,
+				D940DBCC37F9D51598C5BCB23B51DB76 /* Debug */,
+				DF87449D88D40B9DE55E4AC4AC841833 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89645EC424E829E79B7B4952B327AA08 /* Build configuration list for PBXNativeTarget "TRULogining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6928DB95C59B9DB8D754746DF0E3FF3 /* Debug */,
+				A8E8F82D536D0E1E4E01DE0B989A1255 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1065,6 +1217,15 @@
 			buildConfigurations = (
 				FB545C07A0415E6077520975361E521F /* Debug */,
 				72F22A9E809747371B9D031B32BB4C91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB3B076905C5E467492A54DE3336912B /* Build configuration list for PBXNativeTarget "TRUNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F936483ED2727E838CBB573F12E1F209 /* Debug */,
+				003E46D052A81E4A8F19BC7B4742FE07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

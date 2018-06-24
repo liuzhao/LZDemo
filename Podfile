@@ -6,6 +6,7 @@ target 'LZDemo' do
   # use_frameworks!
 
    pod 'TRULogining', :path => 'Lib/TRULogining'
+   pod 'TRUHome', :path => 'Lib/TRUHome'
 #   pod 'TRUNetworking', :path => 'Lib/TRUNetworking'
    pod 'TRUNetworking', '~> 0.2.0'
    

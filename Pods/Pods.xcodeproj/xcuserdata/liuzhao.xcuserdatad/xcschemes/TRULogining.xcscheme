@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D9259411A7DA2B70E9CEC5284AE17211"
+               BlueprintIdentifier = "D9E1EF4B2FC07E29C718404A97481DBF"
                BlueprintName = "TRULogining"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libTRULogining.a">

@@ -1,0 +1,6 @@
+framework module TRUHome {
+  umbrella header "TRUHome-umbrella.h"
+
+  export *
+  module * { export * }
+}
