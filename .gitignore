@@ -1,6 +1,8 @@
 # OS X
 .DS_Store
 
+zhaopin.xcworkspace/xcuserdata/*/UserInterfaceState.xcuserstate
+
 # Xcode
 build/
 *.pbxuser
