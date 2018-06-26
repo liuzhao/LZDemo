@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02F8C7CA6E36F5245D2B1A467758D36E /* TRUHomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 46F196FD8475D4AE116FE0B6AFDF4878 /* TRUHomeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B6CCB7CF3C1A9CFE3A3C61E8FACE9C9 /* TRUHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D60B8903876F123545FF8078919AB5 /* TRUHomeModel.m */; };
+		16F6AFAE56A1A37F3FEE16C04BAD17C1 /* TRUHomeModel.h in Headers */ = {isa = PBXBuildFile; fileRef = B020F306C95E82EC5B0D6F1F5F230455 /* TRUHomeModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		348FC1F4E34C148162D30D61A92550FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		45A973A41846DE84281E7B462BF5E537 /* TRUHome-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44B10B0757CA130ACB73B26BB80E48E3 /* TRUHome-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4EEE13B83FD2663EAFBA7B6D998D31FA /* Pods-TRUHome_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 234F844125CA7994863FCB45DBDEB448 /* Pods-TRUHome_Example-dummy.m */; };
+		57FF91C57F60958EBE8D4E7603CCF07E /* TRUHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9477B4D4F037DD35EFAF8265192288D6 /* TRUHomeViewController.m */; };
 		7A55EC67F9599F20685BC182065C9FB9 /* Pods-TRUHome_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E33B3B2CE4080DE607A8ED7B69CAD42 /* Pods-TRUHome_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F093FBF7AB802C1ED502F4CD0621911 /* TRUHome-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A3A1EFF05E071E18D6D6384BFFC1FB1 /* TRUHome-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		99EFE5C57938974D41EE12B9CAC2E074 /* TRUHome-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DB5BF695306078394FDB70A0E575CEA /* TRUHome-dummy.m */; };
 		9DA579D1076BE36427BD0B06F01A0FAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B06DCEFA9651E8715EAEE318B886B020 /* TRUHome-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFB3A283D344774D5D9E45EF23F66FB /* TRUHome-dummy.m */; };
 		B50772F2DC54D012EFEEF7AD5994D7B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		B9C3ED6970058573261892B992D128EE /* Pods-TRUHome_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D39AE50B2D8A7CAE8232C5FE0F1EBC4 /* Pods-TRUHome_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C4E0B2D3E85C74DDDC7902640CDFACF6 /* TRUHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14160551C6EB1C3CF672DE825F9B8230 /* TRUHomeViewController.m */; };
 		D3DF89EB59653D6BDFA8257B52188F4A /* Pods-TRUHome_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34C96BA4ED0C49E9AB97BFA6C7AF8CCB /* Pods-TRUHome_Tests-dummy.m */; };
-		FE1265D6C72C35D236F67ADBC816DD2E /* TRUHomeViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = DA185CE42B734DBFBCF842E32E18534D /* TRUHomeViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,39 +42,41 @@
 /* Begin PBXFileReference section */
 		0EE4B578A0D192CDC211C797E6023BA2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FF123EE885CA2D935E4CE98ED82AAB0 /* Pods-TRUHome_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TRUHome_Tests.modulemap"; sourceTree = "<group>"; };
-		14160551C6EB1C3CF672DE825F9B8230 /* TRUHomeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TRUHomeViewController.m; path = TRUHome/Classes/TRUHomeViewController.m; sourceTree = "<group>"; };
-		1A3A1EFF05E071E18D6D6384BFFC1FB1 /* TRUHome-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRUHome-umbrella.h"; sourceTree = "<group>"; };
-		1C28E204B69A07BB0A43E725D588F952 /* TRUHome-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRUHome-prefix.pch"; sourceTree = "<group>"; };
-		1C6F6A7FD30396DEC8D143B28C89B9C2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20F9814743E8919CD7F6DBFBDDAA14F2 /* TRUHome.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TRUHome.modulemap; sourceTree = "<group>"; };
-		21E6EC8E0FD67D13A2C01F2C152A5487 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		234F844125CA7994863FCB45DBDEB448 /* Pods-TRUHome_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TRUHome_Example-dummy.m"; sourceTree = "<group>"; };
 		23BE90BBA514E176B30E9121DD4D4947 /* Pods-TRUHome_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TRUHome_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		27003089D6E0D618D9504F613F474D98 /* TRUHome.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TRUHome.modulemap; sourceTree = "<group>"; };
 		2F69C94D838164AC77D616132AE30B72 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34C96BA4ED0C49E9AB97BFA6C7AF8CCB /* Pods-TRUHome_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TRUHome_Tests-dummy.m"; sourceTree = "<group>"; };
-		4DB5BF695306078394FDB70A0E575CEA /* TRUHome-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TRUHome-dummy.m"; sourceTree = "<group>"; };
-		52BDF15BF98D5F2CF9E150F1E33E0260 /* TRUHome.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TRUHome.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		38D24BF3802B4CC68E53A77B37EC91F2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3DFB3A283D344774D5D9E45EF23F66FB /* TRUHome-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TRUHome-dummy.m"; sourceTree = "<group>"; };
+		430A89B4FA999A8C07D6592703F165C4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44B10B0757CA130ACB73B26BB80E48E3 /* TRUHome-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRUHome-umbrella.h"; sourceTree = "<group>"; };
+		46F196FD8475D4AE116FE0B6AFDF4878 /* TRUHomeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TRUHomeViewController.h; path = TRUHome/Classes/TRUHomeViewController.h; sourceTree = "<group>"; };
+		4CFF28DB850EA60BDD2D853E65577DF8 /* TRUHome.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TRUHome.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		540E66422505604852956FA250A033B2 /* Pods-TRUHome_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TRUHome_Example.release.xcconfig"; sourceTree = "<group>"; };
+		58D60B8903876F123545FF8078919AB5 /* TRUHomeModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TRUHomeModel.m; path = TRUHome/Classes/TRUHomeModel.m; sourceTree = "<group>"; };
 		5E33B3B2CE4080DE607A8ED7B69CAD42 /* Pods-TRUHome_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TRUHome_Tests-umbrella.h"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6D39AE50B2D8A7CAE8232C5FE0F1EBC4 /* Pods-TRUHome_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TRUHome_Example-umbrella.h"; sourceTree = "<group>"; };
+		71AA020767F6801F60702F30910E9447 /* TRUHome.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TRUHome.xcconfig; sourceTree = "<group>"; };
 		7E564720179492CBF58C4AF9E60EA4AD /* Pods-TRUHome_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TRUHome_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8934801097AF834EF206EE1B48AE8C15 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		903EC64EFB7F3C85FD34C85447125CEA /* Pods-TRUHome_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TRUHome_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9477B4D4F037DD35EFAF8265192288D6 /* TRUHomeViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TRUHomeViewController.m; path = TRUHome/Classes/TRUHomeViewController.m; sourceTree = "<group>"; };
 		9E07DA7A73C18431D8417CF402641875 /* Pods-TRUHome_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TRUHome_Tests-resources.sh"; sourceTree = "<group>"; };
-		A1E033BDD38D2577126067A0DA8F826A /* TRUHome.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TRUHome.xcconfig; sourceTree = "<group>"; };
 		A372C664BE4E80956C4CDCFAA7F1D7DA /* TRUHome.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TRUHome.framework; path = TRUHome.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4A1A7AFA3DD00C208A8FD6476EC0B1C /* Pods-TRUHome_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TRUHome_Example-resources.sh"; sourceTree = "<group>"; };
 		B01EBFD6A6931A37D5BCF3A059019848 /* Pods-TRUHome_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TRUHome_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B020F306C95E82EC5B0D6F1F5F230455 /* TRUHomeModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TRUHomeModel.h; path = TRUHome/Classes/TRUHomeModel.h; sourceTree = "<group>"; };
+		B0A01D3BFE99BC6D4237C1237140A969 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		BE2A00BBC251D225970D7D3BF17B05DE /* Pods-TRUHome_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TRUHome_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C120F7264B6282449CEAAC50EC908709 /* Pods_TRUHome_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TRUHome_Tests.framework; path = "Pods-TRUHome_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D96E057E0914F23FAE7B1FD2DFD4C4C6 /* Pods_TRUHome_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TRUHome_Example.framework; path = "Pods-TRUHome_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA185CE42B734DBFBCF842E32E18534D /* TRUHomeViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TRUHomeViewController.h; path = TRUHome/Classes/TRUHomeViewController.h; sourceTree = "<group>"; };
 		DC104EF276948149FAB612DB253577B8 /* Pods-TRUHome_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TRUHome_Example.modulemap"; sourceTree = "<group>"; };
 		E0C2EC0AF76DA38DD6553246ADE872B1 /* Pods-TRUHome_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TRUHome_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E24A83E1B513CF846C6A99556D2AECCC /* Pods-TRUHome_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TRUHome_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F0B91D6D81268888AC142BF5EC9187EF /* Pods-TRUHome_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TRUHome_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F3A50AD74779FA030422957E34360110 /* TRUHome-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TRUHome-prefix.pch"; sourceTree = "<group>"; };
 		FD08803F6C3229109F19C4A0A3E21081 /* Pods-TRUHome_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TRUHome_Tests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,26 +108,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		11474C09A73D25F1B85FC79D45909433 /* Support Files */ = {
+		30D52F3A1A00F67188951E73D10B56FE /* TRUHome */ = {
 			isa = PBXGroup;
 			children = (
-				1C6F6A7FD30396DEC8D143B28C89B9C2 /* Info.plist */,
-				20F9814743E8919CD7F6DBFBDDAA14F2 /* TRUHome.modulemap */,
-				A1E033BDD38D2577126067A0DA8F826A /* TRUHome.xcconfig */,
-				4DB5BF695306078394FDB70A0E575CEA /* TRUHome-dummy.m */,
-				1C28E204B69A07BB0A43E725D588F952 /* TRUHome-prefix.pch */,
-				1A3A1EFF05E071E18D6D6384BFFC1FB1 /* TRUHome-umbrella.h */,
+				B020F306C95E82EC5B0D6F1F5F230455 /* TRUHomeModel.h */,
+				58D60B8903876F123545FF8078919AB5 /* TRUHomeModel.m */,
+				46F196FD8475D4AE116FE0B6AFDF4878 /* TRUHomeViewController.h */,
+				9477B4D4F037DD35EFAF8265192288D6 /* TRUHomeViewController.m */,
+				55B76F992E6C24E2B355D22B79DB9CAD /* Pod */,
+				BF30529D92BD182D8B09C9FC42D56E4D /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TRUHome";
+			name = TRUHome;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		5BEED61122DCF58A7BAED57B5D69B4E7 /* Pod */ = {
+		55B76F992E6C24E2B355D22B79DB9CAD /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				8934801097AF834EF206EE1B48AE8C15 /* LICENSE */,
-				21E6EC8E0FD67D13A2C01F2C152A5487 /* README.md */,
-				52BDF15BF98D5F2CF9E150F1E33E0260 /* TRUHome.podspec */,
+				38D24BF3802B4CC68E53A77B37EC91F2 /* LICENSE */,
+				B0A01D3BFE99BC6D4237C1237140A969 /* README.md */,
+				4CFF28DB850EA60BDD2D853E65577DF8 /* TRUHome.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -146,35 +150,15 @@
 			path = "Target Support Files/Pods-TRUHome_Example";
 			sourceTree = "<group>";
 		};
-		6A042FC51448F7993C4E296263FE9293 /* TRUHome */ = {
-			isa = PBXGroup;
-			children = (
-				DA185CE42B734DBFBCF842E32E18534D /* TRUHomeViewController.h */,
-				14160551C6EB1C3CF672DE825F9B8230 /* TRUHomeViewController.m */,
-				5BEED61122DCF58A7BAED57B5D69B4E7 /* Pod */,
-				11474C09A73D25F1B85FC79D45909433 /* Support Files */,
-			);
-			name = TRUHome;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				7EB599AECA09AEBD2BBF88180E0FAE06 /* Development Pods */,
+				A9AC99C986BD5792B875C6FF5AEC262D /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				DCB1B139A71286D9DB84E4E38BEB7212 /* Products */,
 				A96332A2683E87627D9DAC1EFB3805EC /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		7EB599AECA09AEBD2BBF88180E0FAE06 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				6A042FC51448F7993C4E296263FE9293 /* TRUHome */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		8AED1B3F4504697BB426B5080A1019CB /* Pods-TRUHome_Tests */ = {
@@ -204,12 +188,34 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		A9AC99C986BD5792B875C6FF5AEC262D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30D52F3A1A00F67188951E73D10B56FE /* TRUHome */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF30529D92BD182D8B09C9FC42D56E4D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				430A89B4FA999A8C07D6592703F165C4 /* Info.plist */,
+				27003089D6E0D618D9504F613F474D98 /* TRUHome.modulemap */,
+				71AA020767F6801F60702F30910E9447 /* TRUHome.xcconfig */,
+				3DFB3A283D344774D5D9E45EF23F66FB /* TRUHome-dummy.m */,
+				F3A50AD74779FA030422957E34360110 /* TRUHome-prefix.pch */,
+				44B10B0757CA130ACB73B26BB80E48E3 /* TRUHome-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TRUHome";
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -233,12 +239,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		5C7984D2C67DD2BB4E4D7B8E0326ED04 /* Headers */ = {
+		3CAEE6D1C2FFD68593F32D63F0B7CB5F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F093FBF7AB802C1ED502F4CD0621911 /* TRUHome-umbrella.h in Headers */,
-				FE1265D6C72C35D236F67ADBC816DD2E /* TRUHomeViewController.h in Headers */,
+				45A973A41846DE84281E7B462BF5E537 /* TRUHome-umbrella.h in Headers */,
+				16F6AFAE56A1A37F3FEE16C04BAD17C1 /* TRUHomeModel.h in Headers */,
+				02F8C7CA6E36F5245D2B1A467758D36E /* TRUHomeViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,9 +308,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB41A55AB1147106F2887950829F753B /* Build configuration list for PBXNativeTarget "TRUHome" */;
 			buildPhases = (
-				5A6105D6B964159906ED48FBFF286147 /* Sources */,
+				721CFB2D0130B35A45E926AD02ADDF5F /* Sources */,
 				A7A155398C6A0B8EDCB43D2E64F77963 /* Frameworks */,
-				5C7984D2C67DD2BB4E4D7B8E0326ED04 /* Headers */,
+				3CAEE6D1C2FFD68593F32D63F0B7CB5F /* Headers */,
 			);
 			buildRules = (
 			);
@@ -343,12 +350,13 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5A6105D6B964159906ED48FBFF286147 /* Sources */ = {
+		721CFB2D0130B35A45E926AD02ADDF5F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99EFE5C57938974D41EE12B9CAC2E074 /* TRUHome-dummy.m in Sources */,
-				C4E0B2D3E85C74DDDC7902640CDFACF6 /* TRUHomeViewController.m in Sources */,
+				B06DCEFA9651E8715EAEE318B886B020 /* TRUHome-dummy.m in Sources */,
+				0B6CCB7CF3C1A9CFE3A3C61E8FACE9C9 /* TRUHomeModel.m in Sources */,
+				57FF91C57F60958EBE8D4E7603CCF07E /* TRUHomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,7 +496,7 @@
 		};
 		81362294FD36FCAC2FFE98210096200A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1E033BDD38D2577126067A0DA8F826A /* TRUHome.xcconfig */;
+			baseConfigurationReference = 71AA020767F6801F60702F30910E9447 /* TRUHome.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -640,7 +648,7 @@
 		};
 		DF6E50DC86B4152B26ABE95781FA8D05 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A1E033BDD38D2577126067A0DA8F826A /* TRUHome.xcconfig */;
+			baseConfigurationReference = 71AA020767F6801F60702F30910E9447 /* TRUHome.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

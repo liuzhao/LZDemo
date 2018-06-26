@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "TRUHomeModel.h"
 #import "TRUHomeViewController.h"
 
 FOUNDATION_EXPORT double TRUHomeVersionNumber;
